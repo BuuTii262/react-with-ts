@@ -2,9 +2,11 @@ import { Component } from "react";
 import classes from "./App.module.scss";
 import UserComponent from "./components/UserComponent";
 import isEmptyArray from "./utils/isEmptyArray";
-import Nav from "./Nav";
-import Shop from "./Shop";
-import About from "./About";
+
+import Nav from "./../src/components/Nav";
+import Shop from "./../src/pages/Shop";
+import About from "./../src/pages/About";
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 interface Person {
